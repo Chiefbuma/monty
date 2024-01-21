@@ -1,7 +1,7 @@
 #include "monty.h"
 /**
- * f_swap - adds the top two elements of the stack.
- * @head: stack head
+ * f_swap - adds
+ * @head: stack
  * @counter: line_number
  * Return: no return
 */
