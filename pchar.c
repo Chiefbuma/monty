@@ -1,8 +1,8 @@
 #include "monty.h"
 /**
- * f_pchar - prints the char at the top of the stack,
+ * f_pchar - prints
  * followed by a new line
- * @head: stack head
+ * @head: stack
  * @counter: line_number
  * Return: no return
 */
