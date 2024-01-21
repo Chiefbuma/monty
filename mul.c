@@ -1,19 +1,19 @@
 #include "monty.h"
 /**
- * f_mul - multiplies the top two elements of the stack.
- * @head: stack head
+ * f_mul - multiplies the stack.
+ * @head: head
  * @counter: line_number
  * Return: no return
 */
 void f_mul(stack_t **head, unsigned int counter)
 {
-	stack_t *h;
+	stack_t *y;
 	int len = 0, aux;
 
-	h = *head;
-	while (h)
+	y = *head;
+	while (y)
 	{
-		h = h->next;
+		y = y->next;
 		len++;
 	}
 	if (len < 2)
@@ -24,9 +24,9 @@ void f_mul(stack_t **head, unsigned int counter)
 		free_stack(*head);
 		exit(EXIT_FAILURE);
 	}
-	h = *head;
-	aux = h->next->n * h->n;
-	h->next->n = aux;
-	*head = h->next;
-	free(h);
+	y = *head;
+	aux = y->next->n * y->n;
+	y->next->n = aux;
+	*head = y->next;
+	free(y);
 }
