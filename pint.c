@@ -1,7 +1,7 @@
 #include "monty.h"
 /**
- * f_pint - prints the top
- * @head: stack head
+ * f_pint - prints
+ * @head: stack
  * @counter: line_number
  * Return: no return
 */
